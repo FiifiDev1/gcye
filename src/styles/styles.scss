@@ -1,0 +1,258 @@
+// to create a variable
+// $primaryColor: red
+
+// to use the variable
+// hearder {
+//     background-color: $primaryColor;
+// }
+
+p, h2, h6, h1, h3, h4, h5{
+    padding: 0;
+    margin: 0;
+}
+
+*  {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'roboto';
+}
+
+
+$text-color: #727272;
+$secondary-text-color: #b6b6b6;
+$secondary-text-color: #F4A933;
+$border-color: #E5E5E5;
+$secondary-button-color: #9B9B9B;
+$secondary-button-border-color: #AFAFAF;
+$dark-text-background: #F4F4F4;
+$input-border: #D8D8D8;
+$placeholder-color: #C3C3C3;
+@import "./mixins";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import "./googleFonts";
+@import "./navbar";
+@import "./buttons";
+@import "./profile";
+@import "./dashboard";
+@import "./phoneEmail";
+@import "./forms";
+@import "./yessfund";
+@import "./menu";
+
+
+// generic styles
+
+.primary-button{
+    border: 1px solid $border-color;
+}
+
+.grid-center{
+    justify-items: center;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+}
+
+.tr-row{
+    color: #4b4b4bb3;
+}
+
+.tr-head{
+    color: #7272725f;
+    font-size: 14px;
+}
+
+.fs-small{
+    font-size: 1rem;
+}
+
+.amount-text{
+    font-size: 35px;
+    font-weight: 700;
+    color: $secondary-text-color
+}
+
+.box-shadow{
+    box-shadow: 0px 10px 10px #cccccc16;
+}
+
+.bb{
+    border-bottom: 1px solid $border-color;
+}
+
+.ptc{ 
+    color: $text-color
+}
+
+.stc{
+    color: $secondary-button-color
+}
+
+.content-container{
+    @include flat-pop-up();
+    width: 100%;
+    height: auto;
+}
+
+.pd-v-max{
+    padding: 20px 0;
+}
+
+.pd-v-min{
+    padding: 12px 0;
+}
+
+.pd-h-max{
+    padding: 0 20px;
+}
+
+.pd-h-min{
+    padding: 0 12px;
+}
+
+.br{
+    border-radius: 5px;
+}
+
+.mg-v{
+    margin: 29.3px 0;
+}
+
+.mg-down-sm{
+    margin-bottom : 10px;
+}
+
+.mg-top{
+    margin-top: 20px;
+}
+
+.mg-down{
+    margin-bottom: 20px;
+}
+
+.mg-top-sm{
+    margin-top: 6px;
+}
+
+.h2{
+    font-size: 18px;
+    color: $text-color;
+    font-weight: 500;
+    margin: 0;
+}
+
+// end generic styles
+
+
+body{
+    background-color: #F8F8F8;
+}
+
+.general-padding{
+    padding: 0 20px;
+}
+
+.h1-mobile{
+    font-size: 16px;
+    color: $text-color;
+    margin: 0;
+}
+
+.faint-text{
+    color: $secondary-button-color;
+}
+
+// events and projects
+
+.upcoming-event-container{
+    border: 1px solid $border-color;
+    height: 260px;
+    display: grid;
+    grid-template-rows: 1fr 48px;
+}
+
+.upcoming-event-image{
+    width: 100%;
+}
+
+.upcoming-event-name-container{
+    display: grid;
+    align-items: center;
+    background-color: #F4F4F4;
+}
+
+.tab-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 59px;
+}
+
+.tab {
+    color: $text-color;
+    height: 59px;
+    border: none;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.active-tab{
+    color: $secondary-text-color;
+    border-bottom: 1.5px solid $secondary-text-color;
+    // box-shadow: 0px 10px 10px #cccccc39;
+}
+
+.events-and-projects-container{
+    @include flat-pop-up();
+    width: 100%;
+    height: 100vh;
+}
+
+// end events and projects
+
+// helpdesk 
+.helpdesk-form-con{
+    height: 598px;
+    width: 100%;
+    border: 1px solid $border-color;
+    display: grid;
+    grid-template-rows: 65.7px 1fr;
+    box-shadow: 0px 10px 10px #cccccc39;
+}
+
+.form-title-con{
+    display: grid;
+    align-items: center;
+}
+
+// end helpdesk 
+
+// yessfund
+.total-contributions{
+    width: 100%;
+    height: 181px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.amount-and-message{
+    display: grid;
+    align-self: end;
+    // grid-gap: 7px;
+}
+
+.amount-text{
+    justify-self: center;
+}
+
+// end yessfund
+
+.login-logo{
+    width: 65px;
+    height: 65px;
+}

@@ -1,0 +1,17 @@
+.phone-and-email-container{
+    width: 100%;
+    border: 1px solid $border-color;
+    display: grid;
+    grid-template-rows: 107px 1fr;
+    height: 274.44px;
+}
+
+.mail-icon{
+    color: #D8D8D8;
+}
+
+.phone-and-email{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}

@@ -52,6 +52,18 @@ $placeholder-color: #C3C3C3;
     align-items: center;
 }
 
+.asc{
+    align-self: center;
+}
+.ase{
+    align-self: end;
+}
+
+.ass{
+    align-self: start;
+}
+
+
 .grid{
     display: grid;
     // 
@@ -257,7 +269,35 @@ body{
 
 // end yessfund
 
+
+// login 
 .login-logo{
     width: 65px;
     height: 65px;
 }
+
+// end login
+
+
+// signupas 
+.sign-up-as-link{
+    color: white;
+    background-color: $secondary-text-color;
+    height: 150px;
+    display: grid;
+    text-decoration: none;
+
+    &:hover{
+        color: none;
+    }
+}
+.sign-up-as-link p {
+    font-size: 11px;
+}
+
+.signupas-h1{
+    font-size: 22px;
+    color: #727272;
+}
+
+// end signupas

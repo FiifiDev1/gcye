@@ -6,7 +6,7 @@ a{
     width: 100%;
     position: fixed;
     top: 78px;
-    background-color: #e5e5e5;
+    background-color: #eeeeee;
     height: 100vh;
     overflow: auto;
 }
@@ -23,9 +23,11 @@ a{
     color: $text-color;
 
     &:hover{
-        box-shadow: 0 0 10px rgb(226, 226, 226);
-        background-color: white;
+        box-shadow: 0 0 10px rgba(226, 226, 226, 0.408);
+        background-color: #f8f8f8;
         color: $text-color;
+        outline: $secondary-text-color 1px solid;
+        transition: 0.5s all;
     }
     padding: 20px;
 }

@@ -12,7 +12,7 @@ p, h2, h6, h1, h3, h4, h5 {
 }
 
 .material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 
 .navbar {
@@ -182,7 +182,7 @@ a {
   width: 100%;
   position: fixed;
   top: 78px;
-  background-color: #e5e5e5;
+  background-color: #eeeeee;
   height: 100vh;
   overflow: auto;
 }
@@ -200,9 +200,11 @@ a {
   padding: 20px;
 }
 .link-item:hover {
-  box-shadow: 0 0 10px rgb(226, 226, 226);
-  background-color: white;
+  box-shadow: 0 0 10px rgba(226, 226, 226, 0.408);
+  background-color: #f8f8f8;
   color: #727272;
+  outline: #F4A933 1px solid;
+  transition: 0.5s all;
 }
 
 .primary-button {
@@ -212,6 +214,18 @@ a {
 .grid-center {
   justify-items: center;
   align-items: center;
+}
+
+.asc {
+  align-self: center;
+}
+
+.ase {
+  align-self: end;
+}
+
+.ass {
+  align-self: start;
 }
 
 .grid {
@@ -408,4 +422,24 @@ body {
 .login-logo {
   width: 65px;
   height: 65px;
+}
+
+.sign-up-as-link {
+  color: white;
+  background-color: #F4A933;
+  height: 150px;
+  display: grid;
+  text-decoration: none;
+}
+.sign-up-as-link:hover {
+  color: none;
+}
+
+.sign-up-as-link p {
+  font-size: 11px;
+}
+
+.signupas-h1 {
+  font-size: 22px;
+  color: #727272;
 }/*# sourceMappingURL=styles.css.map */

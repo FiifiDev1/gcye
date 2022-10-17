@@ -2,190 +2,216 @@ a{
     text-decoration: none;
 }
 
-.mediaViewInfo {
-    --web-view-name: iPhone 13, 12 Pro Max – 10;
-    --web-view-id: iPhone_13_12_Pro_Max__10;
-    --web-scale-on-resize: true;
-    --web-enable-deep-linking: true;
-}
-:root {
-    --web-view-ids: iPhone_13_12_Pro_Max__10;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: none;
-}
-#iPhone_13_12_Pro_Max__10 {
+// .mediaViewInfo {
+//     --web-view-name: iPhone 13, 12 Pro Max – 10;
+//     --web-view-id: iPhone_13_12_Pro_Max__10;
+//     --web-scale-on-resize: true;
+//     --web-enable-deep-linking: true;
+// }
+// :root {
+//     --web-view-ids: iPhone_13_12_Pro_Max__10;
+// }
+// * {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+//     border: none;
+// }
+// #iPhone_13_12_Pro_Max__10 {
+//     position: fixed;
+//     width: 100%;
+//     height: 100vh;
+//     background-color: rgba(248,248,248,1);
+//     overflow: hidden;
+//     --web-view-name: iPhone 13, 12 Pro Max – 10;
+//     --web-view-id: iPhone_13_12_Pro_Max__10;
+//     --web-scale-on-resize: true;
+//     --web-enable-deep-linking: true;
+//     top: 78px;
+// }
+// #Group_4992 {
+//     position: absolute;
+//     width: 100%;
+//     // height: 639px;
+//     left: -2px;
+//     // top: 78px;
+//     overflow: visible;
+// }
+// #Rectangle_2941 {
+//     fill: rgba(255,255,255,1);
+//     width: 100%;
+//     min-width: 100%
+// }
+// .Rectangle_2941 {
+//     filter: drop-shadow(0px 2px 10px rgba(204, 204, 204, 0.161));
+//     position: absolute;
+//     overflow: visible;
+//     width: 100%;
+//     height: 95px;
+//     left: 0px;
+//     top: 0px;
+// }
+// #Dashboard {
+//     left: 31px;
+//     top: 20px;
+//     position: absolute;
+//     overflow: visible;
+//     width: 88px;
+//     white-space: nowrap;
+//     text-align: left;
+//     font-family: Roboto;
+//     font-style: normal;
+//     font-weight: normal;
+//     font-size: 18px;
+//     color: rgba(114,114,114,1);
+// }
+// #Resource_Centers {
+//     left: 31px;
+//     top: 105px;
+//     position: absolute;
+//     overflow: visible;
+//     width: 142px;
+//     white-space: nowrap;
+//     text-align: left;
+//     font-family: Roboto;
+//     font-style: normal;
+//     font-weight: normal;
+//     font-size: 18px;
+//     color: rgba(114,114,114,1);
+// }
+// #Events__Project {
+//     left: 31px;
+//     top: 190px;
+//     position: absolute;
+//     overflow: visible;
+//     width: 131px;
+//     white-space: nowrap;
+//     text-align: left;
+//     font-family: Roboto;
+//     font-style: normal;
+//     font-weight: normal;
+//     font-size: 18px;
+//     color: rgba(114,114,114,1);
+// }
+// #Help_Desk {
+//     left: 31px;
+//     top: 275px;
+//     position: absolute;
+//     overflow: visible;
+//     width: 82px;
+//     white-space: nowrap;
+//     text-align: left;
+//     font-family: Roboto;
+//     font-style: normal;
+//     font-weight: normal;
+//     font-size: 18px;
+//     color: rgba(114,114,114,1);
+// }
+// #Yess_Fund {
+//     left: 31px;
+//     top: 360px;
+//     position: absolute;
+//     overflow: visible;
+//     width: 84px;
+//     white-space: nowrap;
+//     text-align: left;
+//     font-family: Roboto;
+//     font-style: normal;
+//     font-weight: normal;
+//     font-size: 18px;
+//     color: rgba(114,114,114,1);
+// }
+// #Feedback_Center {
+//     left: 31px;
+//     top: 445px;
+//     position: absolute;
+//     overflow: visible;
+//     width: 136px;
+//     white-space: wrap;
+//     text-align: left;
+//     font-family: Roboto;
+//     font-style: normal;
+//     font-weight: normal;
+//     font-size: 18px;
+//     color: rgba(114,114,114,1);
+// }
+// #RenewDues_Payment {
+//     left: 31px;
+//     top: 530px;
+//     position: absolute;
+//     overflow: visible;
+//     width: 178px;
+//     white-space: nowrap;
+//     text-align: left;
+//     font-family: Roboto;
+//     font-style: normal;
+//     font-weight: normal;
+//     font-size: 18px;
+//     color: rgba(114,114,114,1);
+// }
+// #Forum_and_member_to_chat {
+//     left: 31px;
+//     top: 615px;
+//     position: absolute;
+//     overflow: visible;
+//     width: 218px;
+//     white-space: nowrap;
+//     text-align: left;
+//     font-family: Roboto;
+//     font-style: normal;
+//     font-weight: normal;
+//     font-size: 18px;
+//     color: rgba(114,114,114,1);
+// }
+// #Menu {
+//     left: 27px;
+//     top: 78px;
+//     position: absolute;
+//     overflow: visible;
+//     width: 46px;
+//     white-space: nowrap;
+//     text-align: left;
+//     font-family: Roboto;
+//     font-style: normal;
+//     font-weight: normal;
+//     font-size: 18px;
+//     color: rgba(60,60,60,1);
+// }
+// #Icon_ionic-md-close {
+//     fill: rgba(0,0,0,1);
+// }
+// .Icon_ionic-md-close {
+//     overflow: visible;
+//     position: absolute;
+//     width: 14.95px;
+//     height: 14.95px;
+//     right: 27px;
+//     top: 27px;
+//     transform: matrix(1,0,0,1,0,0);
+// }
+
+#menu{
+    width: 100%;
     position: fixed;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(248,248,248,1);
-    overflow: hidden;
-    --web-view-name: iPhone 13, 12 Pro Max – 10;
-    --web-view-id: iPhone_13_12_Pro_Max__10;
-    --web-scale-on-resize: true;
-    --web-enable-deep-linking: true;
     top: 78px;
+    background-color: #e5e5e5;
+    min-height: 100vh;
 }
-#Group_4992 {
-    position: absolute;
-    width: 100%;
-    height: 639px;
-    left: -2px;
-    // top: 78px;
-    overflow: visible;
+
+#menu-links{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
-#Rectangle_2941 {
-    fill: rgba(255,255,255,1);
-    width: 100%;
-    min-width: 100%
+
+.link-item{
+    color: $text-color;
+
+    &:hover{
+        box-shadow: 0 0 10px rgb(226, 226, 226);
+        background-color: white;
+        color: $text-color;
+    }
+    padding: 20px;
 }
-.Rectangle_2941 {
-    filter: drop-shadow(0px 2px 10px rgba(204, 204, 204, 0.161));
-    position: absolute;
-    overflow: visible;
-    width: 100%;
-    height: 95px;
-    left: 0px;
-    top: 0px;
-}
-#Dashboard {
-    left: 31px;
-    top: 20px;
-    position: absolute;
-    overflow: visible;
-    width: 88px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    color: rgba(114,114,114,1);
-}
-#Resource_Centers {
-    left: 31px;
-    top: 105px;
-    position: absolute;
-    overflow: visible;
-    width: 142px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    color: rgba(114,114,114,1);
-}
-#Events__Project {
-    left: 31px;
-    top: 190px;
-    position: absolute;
-    overflow: visible;
-    width: 131px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    color: rgba(114,114,114,1);
-}
-#Help_Desk {
-    left: 31px;
-    top: 275px;
-    position: absolute;
-    overflow: visible;
-    width: 82px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    color: rgba(114,114,114,1);
-}
-#Yess_Fund {
-    left: 31px;
-    top: 360px;
-    position: absolute;
-    overflow: visible;
-    width: 84px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    color: rgba(114,114,114,1);
-}
-#Feedback_Center {
-    left: 31px;
-    top: 445px;
-    position: absolute;
-    overflow: visible;
-    width: 136px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    color: rgba(114,114,114,1);
-}
-#RenewDues_Payment {
-    left: 31px;
-    top: 530px;
-    position: absolute;
-    overflow: visible;
-    width: 178px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    color: rgba(114,114,114,1);
-}
-#Forum_and_member_to_chat {
-    left: 31px;
-    top: 615px;
-    position: absolute;
-    overflow: visible;
-    width: 218px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    color: rgba(114,114,114,1);
-}
-#Menu {
-    left: 27px;
-    top: 78px;
-    position: absolute;
-    overflow: visible;
-    width: 46px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    color: rgba(60,60,60,1);
-}
-#Icon_ionic-md-close {
-    fill: rgba(0,0,0,1);
-}
-.Icon_ionic-md-close {
-    overflow: visible;
-    position: absolute;
-    width: 14.95px;
-    height: 14.95px;
-    right: 27px;
-    top: 27px;
-    transform: matrix(1,0,0,1,0,0);
-}
+

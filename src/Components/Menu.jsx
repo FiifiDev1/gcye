@@ -11,30 +11,27 @@ export class Menu extends Component {
 
   render() {
     return (
-        <div ref={this.menu} id="iPhone_13_12_Pro_Max__10">
-        <div id="Group_4992">
-            <Link  className='link-item pd-v-max' to={"/"} id="Dashboard">
+        <div ref={this.menu} id="menu">
+        <div id="menu-links" className=''>
+            <Link  className='link-item pd' to={"/"} id="Dashboard" >
                 <span>Dashboard</span>
             </Link>
-            <Link to={"#"} className='link-item pd-v-max' id="Resource_Centers">
+            <Link to={"#"} className='link-item pd' id="Resource_Centers">
                 <span>Resource Centers</span>
             </Link>
-            <Link  className='link-item pd-v-max'  to={'eventsandprojects'} id="Events__Project">
+            <Link  className='link-item pd' to={'eventsandprojects'} id="Events__Project">
                 <span>Events & Project</span>
             </Link >
-            <Link  className='link-item pd-v-max' to={"helpdesk"} id="Help_Desk">
-                <span className='link-item'>Help Desk</span>
+            <Link  className='link-item pd' to={"helpdesk"} id="Help_Desk">
+                <span >Help Desk</span>
             </Link>
-            <Link  className='link-item pd-v-max' to={'yessfund'} id="Yess_Fund">
+            <Link  className='link-item pd' to={'yessfund'} id="Yess_Fund">
                 <span>Yess Fund</span>
             </Link >
-            <Link className='link-item pd-v-max' to={"#"} id="Feedback_Center">
-                <span>Feedback Center</span>
-            </Link>
-            <Link className='link-item pd-v-max' to={"#"} id="RenewDues_Payment">
+            <Link className='link-item pd' to={"#"} id="RenewDues_Payment">
                 <span>Renew/Dues Payment</span>
             </Link>
-            <Link className='link-item pd-v-max' to={"#"} id="Forum_and_member_to_chat">
+            <Link className='link-item pd' to={"#"} id="Forum_and_member_to_chat">
                 <span>Forum and member to chat</span>
             </Link>
         </div>

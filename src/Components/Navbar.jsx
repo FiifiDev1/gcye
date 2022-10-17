@@ -34,7 +34,7 @@ export class Navbar extends Component {
           className="avatar material-symbols-outlined"
           style={{
             fontSize: "2rem",
-            color: "#212529",
+            color: "#727272",
             display: "grid",
             justifyItems: "end",
             alignItems: "center",

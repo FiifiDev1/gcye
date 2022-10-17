@@ -203,7 +203,7 @@ a {
   box-shadow: 0 0 10px rgba(226, 226, 226, 0.408);
   background-color: #f8f8f8;
   color: #727272;
-  outline: #F4A933 1px solid;
+  outline: auto;
   transition: 0.5s all;
 }
 

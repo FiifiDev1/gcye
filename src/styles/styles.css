@@ -184,12 +184,15 @@ a {
   top: 78px;
   background-color: #e5e5e5;
   min-height: 100vh;
+  overflow: auto;
 }
 
 #menu-links {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  height: inherit;
+  overflow: auto;
 }
 
 .link-item {

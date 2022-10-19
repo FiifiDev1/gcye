@@ -43,6 +43,7 @@ $placeholder-color: #C3C3C3;
 
 // generic styles
 
+
 .primary-button{
     border: 1px solid $border-color;
 }
@@ -189,12 +190,13 @@ body{
     height: auto;
     display: grid;
     grid-template-rows: 1fr 48px;
+    cursor: pointer;
 }
 
 .upcoming-event-image{
     width: 100%;
     height: 214px;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .upcoming-event-name-container{

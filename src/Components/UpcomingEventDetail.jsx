@@ -26,7 +26,7 @@ export class UpcomingEventDetail extends Component {
             gridAutoColumns: "100px",
             gridAutoFlow: "column",
             alignItems: "center",
-            color: "#3C3C3C",
+            color: "#727272",
           }}
         >
           <h4 style={{ fontSize: "14px" }}>{this.props.detailTitleOne}</h4>

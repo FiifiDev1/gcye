@@ -6,7 +6,7 @@ export class UpcomingEvents extends Component {
   render() {
     return (
       <div onClick={this.props.onclick} className="upcoming-event-container br mg-top mg-down" >
-        <img className="upcoming-event-image" src={image} alt="" />
+        <img className="upcoming-event-image br-top" src={image} alt="" />
         <div
           className="upcoming-event-name-container "
           style={{ borderBottom: "1px solid #E5E5E5"}}

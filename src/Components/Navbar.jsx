@@ -33,6 +33,34 @@ export class Navbar extends Component {
         <span
           className="avatar material-symbols-outlined"
           style={{
+            fontSize: "1.5rem",
+            color: "#727272",
+            display: "grid",
+            justifyItems: "end",
+            alignItems: "center",
+            cursor: "pointer",
+          }}
+        >
+          {" "}
+          search{" "}
+        </span>
+        <span
+          className="avatar material-symbols-outlined"
+          style={{
+            fontSize: "1.5rem",
+            color: "#727272",
+            display: "grid",
+            justifyItems: "end",
+            alignItems: "center",
+            cursor: "pointer",
+          }}
+        >
+          {" "}
+          notifications{" "}
+        </span>
+        <span
+          className="avatar material-symbols-outlined"
+          style={{
             fontSize: "2rem",
             color: "#727272",
             display: "grid",
@@ -42,7 +70,7 @@ export class Navbar extends Component {
           }}
         >
           {" "}
-          account_circle{" "}
+          person{" "}
         </span>
         {this.state.showMenu ? <Menu></Menu> : null}
       </nav>

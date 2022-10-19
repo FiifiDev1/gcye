@@ -450,4 +450,8 @@ body {
 .upcoming-event-content {
   height: auto;
   background-color: #F2F2F2;
+}
+
+.closed-tab {
+  border-bottom: 1px solid rgb(241, 241, 241);
 }/*# sourceMappingURL=styles.css.map */

@@ -4,9 +4,9 @@ import React, { Component } from 'react'
 export class Tab extends Component {
   render() {
     return (
-      <div className={ this.props.status ? 'tab active-tab' : 'tab closed-tab'}>
+      <button style={{background: 'white'}} className={ this.props.status ? 'tab active-tab' : 'tab closed-tab'}>
         {this.props.title}
-      </div>
+      </button>
     )
   }
 }

@@ -29,7 +29,7 @@ export class Navbar extends Component {
         >
           {this.state.showMenu ? "close" : "menu"}
         </span>
-        <h3 className="h1-mobile" style={{justifySelf: 'start'}}>{this.props.page}</h3>
+        <h3 className="h1-mobile" style={{justifySelf: 'start'}}>{this.state.showMenu ?  "Menu" : this.props.page}</h3>
         <span
           className="avatar material-symbols-outlined"
           style={{

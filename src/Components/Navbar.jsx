@@ -36,7 +36,7 @@ export class Navbar extends Component {
             fontSize: "1.5rem",
             color: "#727272",
             display: "grid",
-            justifyItems: "end",
+            justifyItems: "center",
             alignItems: "center",
             cursor: "pointer",
           }}
@@ -50,7 +50,7 @@ export class Navbar extends Component {
             fontSize: "1.5rem",
             color: "#727272",
             display: "grid",
-            justifyItems: "end",
+            justifyItems: "center",
             alignItems: "center",
             cursor: "pointer",
           }}
@@ -64,7 +64,7 @@ export class Navbar extends Component {
             fontSize: "2rem",
             color: "#727272",
             display: "grid",
-            justifyItems: "end",
+            justifyItems: "center",
             alignItems: "center",
             cursor: "pointer",
           }}
